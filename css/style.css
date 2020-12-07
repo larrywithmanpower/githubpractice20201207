@@ -1,0 +1,33 @@
+.header {
+  width: 30px;
+  height: 50px;
+}
+
+.title {
+  color: red;
+}
+
+.content {
+  color: black;
+}
+
+/* ipad size */
+@media (max-width: 768px) {
+  .title {
+    color: blue;
+  }
+
+  .content {
+    font-size: 30px;
+  }
+}
+/* iphone size */
+@media (max-width: 375px) {
+  .title {
+    color: yellow;
+  }
+
+  .content {
+    color: red;
+  }
+}
