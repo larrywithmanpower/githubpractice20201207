@@ -2,6 +2,9 @@
   width: 30px;
   height: 50px;
 }
+.header h2 {
+  color: green;
+}
 
 .title {
   color: red;
